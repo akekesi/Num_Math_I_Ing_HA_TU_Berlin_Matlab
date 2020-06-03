@@ -30,6 +30,6 @@ while f(a) >= 0 || f(b) <= 0
     end
 end
 
-[x,steps] = Num_1_P03_regulafalsi(f,a,b,tol);
+[x,steps] = Num_1_P03_6_regulafalsi(f,a,b,tol);
 disp(x);
 disp(steps);
