@@ -12,7 +12,7 @@ for k=1:1:n
         a(1,k) = s(1,k);
     end
 end
-[u] = Num_1_P02_tridiagonal(a,b,f);
+[u] = Num_1_P02_3_tridiagonal(a,b,f);
 disp(a);
 disp(b);
 disp(f);
