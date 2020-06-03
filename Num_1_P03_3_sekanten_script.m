@@ -6,6 +6,6 @@ a = 5;
 b = a+3;
 tol = 0.001;
 
-[x, steps] = Num_1_P03_sekanten(f,a,b,tol);
+[x, steps] = Num_1_P03_4_sekanten(f,a,b,tol);
 disp(x);
 disp(steps);
