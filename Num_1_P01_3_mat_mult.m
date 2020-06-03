@@ -1,5 +1,5 @@
 %% Matrix-Multiplikation
-function [A] = Num_1_P01_mat_mult(L,R)
+function [A] = Num_1_P01_3_mat_mult(L,R)
 
 m_1 = size(L,1);
 n_2 = size(R,2);
