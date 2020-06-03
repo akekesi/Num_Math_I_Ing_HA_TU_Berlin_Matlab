@@ -1,5 +1,5 @@
 %% L-R Zerlegung
-function [L,R] = Num_1_P01_lr(A)
+function [L,R] = Num_1_P01_2_lr(A)
 
 % A fuer test:
 % A = [2 -1 6; -4 5 -3; 8 11 67];
