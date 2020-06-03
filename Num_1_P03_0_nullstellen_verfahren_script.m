@@ -39,15 +39,15 @@ while f(a) >= 0 || f(b) <= 0 || df(a) == 0
     end
 end
 tol = 0.001;
-%% Newton Verfahren (df(a)darf nicht Null sein!)
-[x_n, steps_n] = Num_1_P03_newton(f,df,a_s,tol);
+%% Newton Verfahren (df(a) darf nicht Null sein!)
+[x_n, steps_n] = Num_1_P03_2_newton(f,df,a_s,tol);
 disp(x_n);
 disp(steps_n);
 %% Sekanten Verfahren
-[x_s, steps_s] = Num_1_P03_sekanten(f,a_s,b_s,tol);
+[x_s, steps_s] = Num_1_P03_4_sekanten(f,a_s,b_s,tol);
 disp(x_s);
 disp(steps_s);
 %% Regula-Falsi Verfahren (f stetig, f(a)<0 und f(b)>0)
-[x_rf,steps_rf] = Num_1_P03_regulafalsi(f,a,b,tol);
+[x_rf,steps_rf] = Num_1_P03_6_regulafalsi(f,a,b,tol);
 disp(x_rf);
 disp(steps_rf);
