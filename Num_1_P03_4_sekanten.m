@@ -1,5 +1,5 @@
 %% Sekanten Verfahren
-function [x, steps] = Num_1_P03_sekanten(f,a,b,tol)
+function [x, steps] = Num_1_P03_4_sekanten(f,a,b,tol)
 d = 111;
 x_0 = a;
 x_1 = b;
