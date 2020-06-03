@@ -1,5 +1,5 @@
 %% Hilfsfunktion fuer L-R Zerlegung
-function [x] = Num_1_P01_vorrueck(L,R,b)
+function [x] = Num_1_P01_1_vorrueck(L,R,b)
 
 % L,R,b fuer test:
 % Ergebnis: [1,2,3]
