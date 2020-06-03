@@ -5,17 +5,17 @@
 L = [1 0 0; -2 1 0; 4 5 1];
 R = [2 -1 6; 0 3 9; 0 0 -2];
 b = [18 -3 231];
-[x] = Num_1_P01_vorrueck(L,R,b);
+[x] = Num_1_P01_1_vorrueck(L,R,b);
 disp(x);
 
 %% Berechnung der Matrix A
 % A = L*R
-[A] = Num_1_P01_mat_mult(L,R);
+[A] = Num_1_P01_3_mat_mult(L,R);
 disp(A);
 
 %% LR-Zerlegung
 % A*x = L*R*x = L*y = b
-[L,R] = Num_1_P01_lr(A);
+[L,R] = Num_1_P01_2_lr(A);
 disp(L);
 disp(R);
 
