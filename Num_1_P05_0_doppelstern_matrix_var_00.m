@@ -5,7 +5,7 @@ clc
 global m1
 global m2;
 global gamma
-frage = 'Wählen Sie! [1-2-3-4]\n';
+frage = 'Waehlen Sie! [1-2-3-4]\n';
 V = input(frage);
 if V == 1
     m1 = 3;
