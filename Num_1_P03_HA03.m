@@ -24,7 +24,7 @@ disp('---Fixpunkt Iteration---')
 disp(x_0);
 disp(s);        %(vorletztes y ist das richtige --> (s-1) Schritte ist noetig)
 disp('---Newton Verfahren---')
-[x_NV, steps_NV] = Num_1_P03_newton(f_NV,df_NV,a,tol);
+[x_NV, steps_NV] = Num_1_P03_2_newton(f_NV,df_NV,a,tol);
 disp(x_NV);
 disp(steps_NV); %(vorletztes y ist das richtige --> (s-1) Schritte ist noetig)
 disp('!!! Vorletztes y ist das richtige --> (s-1) Schritte ist noetig !!!')
