@@ -1,4 +1,4 @@
-function [u] = Num_1_P02_tridiagonal(a,b,f)
+function [u] = Num_1_P02_3_tridiagonal(a,b,f)
 c = zeros(size(a));
 d = zeros(size(b));
 y = zeros(size(f));
