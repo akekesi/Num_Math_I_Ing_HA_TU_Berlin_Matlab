@@ -2,8 +2,8 @@
 A = hilb(5);
 [m,n] = size(A);
 b = A(:,1) + A(:,n);
-[L,R]=Num_1_P01_lr(A);
-[x] = Num_1_P01_vorrueck(L,R,b);
+[L,R]=Num_1_P01_2_lr(A);
+[x] = Num_1_P01_1_vorrueck(L,R,b);
 disp('A:');
 disp(A);
 disp('b:');
