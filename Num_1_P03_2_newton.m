@@ -1,5 +1,5 @@
 %% Newton Verfahren (df(a) darf nicht Null sein!)
-function [x, steps] = Num_1_P03_newton(f,df,a,tol)
+function [x, steps] = Num_1_P03_2_newton(f,df,a,tol)
 d = 111;
 x_0 = a;
 steps = 0;
