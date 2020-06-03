@@ -19,7 +19,7 @@ for m = 1:1:m_T
     y_lr = L\(P*b); % wegen der Reihenfolge von L ist P*b noetig
     x_lr = R\y_lr;
 
-    [R_chol] = chol(A); % für symm., pos. def. Matrix
+    [R_chol] = chol(A); % fÃ¼r symm., pos. def. Matrix
     y_chol = R_chol'\b;
     x_chol = R_chol\y_chol;
 
@@ -33,9 +33,9 @@ end
 disp(T);
 % ab 12: "Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =  2.684500e-17. 
 %         In Num_1_P02_hilbert (line 16)"
-% bei 15 stürzt ab
+% bei 15 stÃ¼rzt ab
 % am schlechteste nach 12: LR-Zerlegung
 
 % FRAGE:
-% [L,R]=Num_1_P01_lr(A);             % ??? andere Ergebnisse wie lu(A) ???
-% [x] = Num_1_P01_vorrueck(L,R,b);
+% [L,R]=Num_1_P01_2_lr(A);             % ??? andere Ergebnisse wie lu(A) ???
+% [x] = Num_1_P01_1_vorrueck(L,R,b);
